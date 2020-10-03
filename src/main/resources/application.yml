@@ -1,0 +1,17 @@
+spring.profiles.active: dev
+
+spring.datasource.max-active: 5
+server.tomcat.access-log-enabled: true
+spring.datasource.sql-script-encoding: utf-8
+
+# Max file size.
+spring.servlet.multipart:
+  max-file-size: 10MB
+  # Max request size.
+  max-request-size: 10MB
+
+server:
+  port: 9002
+  tomcat:
+    threads:
+      max: 1024
